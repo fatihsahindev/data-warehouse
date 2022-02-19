@@ -23,9 +23,17 @@
     padding-right: 1rem;
 }
 
+.flex-fill {
+flex: 1 0 0;
+max-width: 100%;
+}
+
 /* Justify */
 .justify-between {
     justify-content: space-between;
 }
 
 /* Aligns */
+.align-center {
+    align-items: center;
+}
