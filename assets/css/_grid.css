@@ -5,6 +5,11 @@
     margin: 0 auto;
 }
 
+.container-large {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 /* Columns */
 .row {
     display: flex;
