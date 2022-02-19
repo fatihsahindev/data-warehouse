@@ -1,8 +1,11 @@
+
+/* Container */
 .container {
     max-width: 1024px;
     margin: 0 auto;
 }
 
+/* Columns */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -15,6 +18,9 @@
     padding-right: 1rem;
 }
 
+/* Justify */
 .justify-between {
     justify-content: space-between;
 }
+
+/* Aligns */
