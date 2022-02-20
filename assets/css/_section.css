@@ -28,6 +28,11 @@
         left: 0;
         z-index: 1;
     }
+
+    /* Pink Section */
+    .pink-section-content {
+        padding-right: 92px;
+    }
 }
 
 /* Hero Section */
@@ -66,3 +71,4 @@
     line-height: 28,8px;
 }
 
+/* Features */
