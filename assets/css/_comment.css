@@ -5,20 +5,24 @@
     margin: 0 -15px;
 }
 
-.comments .comment-slider .comment-item {
+.comments .comment-slider .comment-item {    
+    padding: 0 15px;    
+    width: 400px;
+}
+
+.comments .comment-slider .comment-item-container {
     background-color: #fff;
     display: flex;
     flex-wrap: wrap;
-    max-width: 400px;
     border-radius: 10px;
     padding: 50px 25px;
-    padding: 0 15px;
 }
 
 .comments .comment-slider .comment-item.active {
-    max-width: 645px;
+    width: 645px;
 }
 
+.comments .comment-slider .comment-item .comment-content,
 .comments .comment-slider .comment-item .comment-image {
     padding-left: 15px;
 }
