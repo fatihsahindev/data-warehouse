@@ -46,6 +46,12 @@
         width: 584px;
         margin: 0 auto;
     }
+
+    /* Comments */
+    .comments-background {
+        padding-top: 109px;
+        padding-left: 93px;
+    }
 }
 
 /* Hero Section */
@@ -153,4 +159,11 @@ margin-bottom: 70px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right center;
+}
+
+/* Comments */
+.comments-background {
+    background-image: url("../img/testimonials.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
