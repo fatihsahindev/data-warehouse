@@ -6,6 +6,13 @@
     .footer h3 {
         font-size: 40px;
     }
+
+    img.contact {
+        position: fixed;
+        right: 50px;
+        bottom: 50px;
+        z-index: 2;
+    }
 }
 
 .footer {
@@ -45,6 +52,10 @@
 .footer .logo {
     display: block;
     margin-bottom: 63px;
+}
+
+.footer .logo img{
+    margin: 0 auto;
 }
 
 .footer-menu-title {
@@ -96,8 +107,8 @@ p.copyright {
 
 img.contact {
     position: fixed;
-    right: 50px;
-    bottom: 50px;
+    right: 20px;
+    bottom: 20px;
     z-index: 2;
 }
 
@@ -105,3 +116,12 @@ img.contact:hover {
     filter: hue-rotate(90deg);
     transition: 1s;
 }
+
+@media screen and (max-width: 1023.9px) {
+    .footer {
+        text-align: center;
+    }
+
+    .mobile-margin-bottom {
+        margin-bottom: 30px;
+    }}

@@ -1,4 +1,3 @@
-
 /* Container */
 .container {
     max-width: 1024px;
@@ -25,21 +24,39 @@
 
 /* Flex */
 .flex-1 {
-flex: 1 0 0;
-max-width: 100%;
+    flex: 1 0 0;
+    max-width: 100%;
 }
 
 .flex-2 {
-flex: 0 0 calc(100% / 2);
-max-width: calc(100%);
+    flex: 0 0 calc(100% / 2);
+    max-width: calc(100%);
 }
 
-/* Justify */
-.justify-between {
-    justify-content: space-between;
+@media screen and (min-width: 1024px) {
+
+    /* Justify */
+    .justify-between {
+        justify-content: space-between;
+    }
 }
 
 /* Aligns */
 .align-center {
     align-items: center;
+}
+
+@media screen and (max-width: 1023.9px) {
+    .row {
+        margin-inline: 0;
+    }
+
+    .column {
+        padding-inline: 7px;
+    }
+
+    .flex-2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }

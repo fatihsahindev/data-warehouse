@@ -28,7 +28,7 @@
         z-index: 1;
     }
 
-    /* Pink Section */    
+    /* Pink Section */
     .pink-section {
         margin-bottom: 150px;
     }
@@ -47,10 +47,92 @@
         margin: 0 auto;
     }
 
+    .features .card:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .features .background-green {
+        background-image: url("../img/card-green.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+    
+    .features .background-purple {
+        background-image: url("../img/card-purple.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+    
+    .features .background-pink {
+        background-image: url("../img/card-pink.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+    
+    .features .background-blue {
+        background-image: url("../img/card-blue.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+
     /* Comments */
     .comments-background {
+        background-image: url("../img/testimonials.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 710px;
         padding-top: 109px;
         padding-left: 93px;
+    }
+}
+
+@media screen and (max-width: 1023.9px) {
+    
+    section {
+        padding-inline: 15px;
+    }
+
+    .hero-section {
+        margin-bottom: 30px;
+    }
+
+    .hero-section .hero-content {
+        margin-bottom: 15px;
+    }
+
+    .pink-section {
+        margin-bottom: 30px;
+    }
+
+    .pink-section-background {
+        padding-bottom: 30px;
+    }
+
+    /* Features */
+    .flex-2 .background-green {
+        background-color: rgba(104, 201, 186, 0.1);
+    }
+
+    .flex-2 .background-purple {
+        background-color: rgba(156, 105, 226, 0.1);
+    }
+
+    .flex-2 .background-pink {
+        background-color: rgba(240, 99, 184, 0.1);
+    }
+
+    .flex-2 .background-blue {
+        background-color: rgba(45, 156, 219, 0.1);
     }
 }
 
@@ -87,7 +169,7 @@
     color: #4B5D68;
     font-weight: 500;
     font-size: 18px;
-    line-height: 28,8px;
+    line-height: 28, 8px;
 }
 
 /* Features */
@@ -103,8 +185,9 @@
     font-weight: 500;
     line-height: 1.6;
 }
+
 .features .section-header {
-margin-bottom: 70px;
+    margin-bottom: 70px;
 }
 
 .features .card {
@@ -118,47 +201,9 @@ margin-bottom: 70px;
     flex: 1 0 0;
 }
 
-.features .card-image, 
+.features .card-image,
 .features .card-content {
     padding: 0 15px;
-}
-
-.features .card:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.features .background-green {
-    background-image: url("../img/card-green.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right center;
-}
-
-.features .background-purple {
-    background-image: url("../img/card-purple.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right center;
-}
-
-.features .background-pink {
-    background-image: url("../img/card-pink.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right center;
-}
-
-.features .background-blue {
-    background-image: url("../img/card-blue.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right center;
 }
 
 /* Comments */
@@ -173,11 +218,4 @@ margin-bottom: 70px;
     left: 93px;
     transform: translateY(-50%, -50%);
     z-index: 1;
-}
-
-.comments-background {
-    background-image: url("../img/testimonials.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 710px;
 }
