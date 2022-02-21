@@ -22,5 +22,9 @@ button, .button {
 .purple-button {
     background-color: #9C69E2;
     color: #fff;
-    
+}
+
+.pink-button {
+    background-color: #F063B8;
+    color: #fff;
 }
