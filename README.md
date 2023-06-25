@@ -1,3 +1,3 @@
 # Data Warehouse
 
-- [Live Demo](https://falovic.github.io/data-warehouse)
+- [Live Demo](https://fatihsahindev.github.io/data-warehouse)
